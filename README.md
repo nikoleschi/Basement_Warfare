@@ -9,7 +9,7 @@ Basement Warfare is a 2D multiplayer shooter video game where two players battle
 
 ## Start menu
 
-![Star menu] (screenshots/main_menu.png)
+![Star menu](screenshots/main_menu.png)
 
 ## Options menu
 
@@ -69,8 +69,6 @@ Each player has 100 health points and deals 50 damage to their opponent. The gun
 
 ### Crates
 
-![Game 2](screenshots/game_2.png)
-
 Crates are wooden boxes that are likely to drop some special bonuses when destroyed to the player who goes through them. Each crate has 80 health points. The bonuses are:
 | Powerup | Description | Percantage of drop |
 | -------- | -------- | -------- |
@@ -81,6 +79,7 @@ Crates are wooden boxes that are likely to drop some special bonuses when destro
 | Damage | Gain x2 damage for 10 seconds | 5 |
 | Nothing | *I think it's obvious* | 10 |
 
+![Game 2](screenshots/game_2.png)
 
 ### Mice
 
@@ -88,7 +87,7 @@ Mice are untargetable AI objects that deal 15 damage to the players. They can mo
 
 ### Winner
 
-![Winner](screenshots/winnter_screen.png)
+![Winner](screenshots/winner_screen.png)
 
 ## Installation
 
