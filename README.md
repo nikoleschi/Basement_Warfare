@@ -64,7 +64,7 @@ Each player has 100 health points and deals 50 damage to their opponent. The gun
 | Movement - LEFT | A | LEFT (arrow key) |
 | Movement - RIGHT | D | RIGHT (arrow key) |
 | Shoot | SPACE | ENTER (RETURN) |
-| Lock rotation | Q | BACKLASH (\\) |
+| Lock rotation | Q | BACKSLASH (\\) |
 
 
 ### Crates
