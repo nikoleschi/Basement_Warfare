@@ -119,7 +119,7 @@ PLAYER_2_CONTROLS = {
     LEFT: pygame.K_LEFT,
     RIGHT: pygame.K_RIGHT,
     SHOOT: pygame.K_RETURN,
-    LOCK: pygame.K_BACKLASH
+    LOCK: pygame.K_BACKSLASH
 }
 
 # bullets
