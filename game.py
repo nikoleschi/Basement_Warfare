@@ -146,16 +146,15 @@ class Game:
                 if pygame.sprite.collide_mask(mouse, self.player_1_sprite.sprite):
                     if not self.player_1.hit and self.player_1.get_damage(MOUSE_DAMAGE):
                         self.game_over = True
-                        self.winner = self.player_2_sprite
+                        self.winner = self.player_2_sprite.sprite
 
                 if pygame.sprite.collide_mask(mouse, self.player_2_sprite.sprite):
                     if not self.player_2.hit and self.player_2.get_damage(MOUSE_DAMAGE):
                         self.game_over = True
-                        self.winner = self.player_1_sprite
+                        self.winner = self.player_1_sprite.sprite
 
     def _game_over_screen(self):
         font_winner = get_font(70)
-
         text = WINNER_MSG.format(self.winner.name) if self.winner is not None else DRAW_MSG
 
         winner_label_surf = font_winner.render(text, True, 'white')

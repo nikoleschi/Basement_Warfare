@@ -96,10 +96,10 @@ DEFAULT_PLAYER_IMAGE = os.path.join(ROOT_DIR, 'graphics', 'player', 'player_idle
 PLAYER_HEALTH = 100
 PLAYER_MAX_HEALTH = 100
 GUN_COOLDOWN = 400
-PLAYER_GUN_DAMAGE = 50
+PLAYER_GUN_DAMAGE = 30
 MAX_BULLETS = 99
 PLAYER_SPEED = 3
-HIT_COOLDOWN = 2_000
+HIT_COOLDOWN = 1_000
 
 PLAYER_1_NAME = 'P1'
 PLAYER_2_NAME = 'P2'
@@ -142,7 +142,7 @@ DEFAULT_BORDER_IMAGE = os.path.join(ROOT_DIR, 'graphics', 'border', 'border.png'
 
 # crate
 DEFAULT_CRATE_IMAGE = os.path.join(ROOT_DIR, 'graphics', 'crate', 'crate.png')
-CRATE_HEALTH = 80
+CRATE_HEALTH = 60
 
 # mouse
 DEFAULT_MOUSE_IMAGE = os.path.join(ROOT_DIR, 'graphics', 'mouse', 'mouse.png')
